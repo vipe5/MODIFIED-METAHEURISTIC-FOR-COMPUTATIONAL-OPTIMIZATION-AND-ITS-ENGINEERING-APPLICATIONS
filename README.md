@@ -5,84 +5,31 @@ ABSTRACT
 In real life, we see many problems, where we have to optimize our solution. These type of problems are called Optimization Problem. In simplest terms, optimization can be considered as a maximization or minimization problem. To solve the optimization problem, efficient search or optimization algorithms are needed. Till date, there are many algorithms and approaches are discovered to solve optimization problem. In these algorithms, some have very high time complexity or some give us approximate result. Our aim is to improve this result with lesser time complexity.With a different perspective, Optimization algorithm can be classified
 into classical and metaheuristic approaches. In this project our mainfocus is based on the metaheuristic algorithm which is one of the key algorithm for optimization. A metaheuristic can be considered as a "master strategy that guides and modifies other heuristics to produce solutions beyond those that are normally generated in a quest for local optimality". But before shifting to the modern solution we will first analyse the traditional and heuristic approach to solve the problem for an overall comparison with the metaheuristic approach for a complete and satisfactory result. To achieve our target, we will use a bench-mark problem THE TRAVELLING SALESMAN PROBLEM (TSP).
 
-
 PREFACE
+
 Introduction
-Solving optimization problems becomes has become a central theme not
-only on operational research but also on several research areas like
-robotic, medicine, economic etc. The number of support decision
-problems that can be formalized as an optimization problem is growing
-rapidly. This study represents a literature revue of Metaheuristics
-optimization. Metaheuristics are applied to all kinds of combinatorial
-problems, and they can also be adapted to discrete problems. These
-approaches which include the genetic algorithms, the Ant Colony
-Algorithms, Particle Swarm Optimization (PSO) etc. are for both monoobjective problems and multi-objective problems. Before focusing on the
-multi-objective optimization, it is necessary to explain the context of
-the mono-objective optimization. A special attention is given to the
-method of Particle Swarm Optimization (PSO).
-To apply new algorithms and approaches we have to select a problem.
-In this project, we have taken the Travelling Salesman Problem (TSP).
-TSP is a benchmark NP-hard problem, which is suitable for apply
-metaheuristic approaches
+
+Solving optimization problems becomes has become a central theme not only on operational research but also on several research areas like robotic, medicine, economic etc. The number of support decision problems that can be formalized as an optimization problem is growing rapidly. This study represents a literature revue of Metaheuristics optimization. Metaheuristics are applied to all kinds of combinatorial problems, and they can also be adapted to discrete problems. These approaches which include the genetic algorithms, the Ant Colony Algorithms, Particle Swarm Optimization (PSO) etc. are for both monoobjective problems and multi-objective problems. Before focusing on the multi-objective optimization, it is necessary to explain the context of the mono-objective optimization. A special attention is given to the method of Particle Swarm Optimization (PSO). To apply new algorithms and approaches we have to select a problem. In this project, we have taken the Travelling Salesman Problem (TSP). TSP is a benchmark NP-hard problem, which is suitable for apply metaheuristic approaches.
+
 Keywords
-Optimization problem, Objective function, Mono-Objective Function,
-Multi-Objective Function, Metaheuristics, Travelling Salesman
-Problem(TSP), Swarm Algorithm, Particle Swarm Optimization.
+
+Optimization problem, Objective function, Mono-Objective Function, Multi-Objective Function, Metaheuristics, Travelling Salesman Problem(TSP), Swarm Algorithm, Particle Swarm Optimization.
 
 Motivation of The Project
-We face many problems in day to day life where optimization is
-required like travelling some places, logistics etc. When we tried to
-solve these problems, we get stuck at some points. In our curriculum
-we have read many optimization techniques. But these techniques do
-not work for all problems. Some problems are so much complex that
-these techniques take too much time to solve.4
-The inspiration for doing this project was primarily an interest in
-undertaking a challenging project in an interesting area of research.
-The opportunity to learn about a new area of computing not covered
-in lectures was appealing. It leads to us to explore a new and unique
-field of the computer science and which motivates us for learning a new
-aspect of solving optimization problem using different approach and
-algorithm. 
+
+We face many problems in day to day life where optimization is required like travelling some places, logistics etc. When we tried to solve these problems, we get stuck at some points. In our curriculum we have read many optimization techniques. But these techniques do not work for all problems. Some problems are so much complex that these techniques take too much time to solve. The inspiration for doing this project was primarily an interest in undertaking a challenging project in an interesting area of research. The opportunity to learn about a new area of computing not covered in lectures was appealing. It leads to us to explore a new and unique field of the computer science and which motivates us for learning a new aspect of solving optimization problem using different approach and algorithm. 
 
 Basic Description of The Project
-This project is based of study and implementation of different
-computational approach for optimization problems. As we know,
-there are many approaches present to solve optimization problem.
-For simple optimization problem these approaches work perfectly, but
-when we apply these approaches on highly complex problems like
-multi-objective optimizations or NP-hard problems, we find some
-issues related to those approaches. These issues are time complexity,
-limited computational capacity, approximation of result etc.
-There are two main methods of solving optimization problem, which
-are further classified. These two methods are Exact Method and
-Approximate Method. When we apply exact method, it takes too
-much time to solve the problem which is not possible for real time
-problems. Approximate Method, which is the second method, gives
-solution in real time, but sometimes it is too much different from exact
-result.
-To overcome from above problems, we have tried to implement an
-algorithm which is nature inspired. This algorithm is known as
-Particle Swarm Optimization(PSO). PSO is originally attributed to
-Kennedy and Eberhart in 1995. It is inspired from bird flocks and fish
-schooling. Classical format of PSO is used to solve continuous
-optimization problem. But we have taken Travelling Salesman
-Problem as an exemplary problem which is a discrete optimization
-problem. To solve discrete optimization problem, we have to convert
-Classical PSO into Discrete PSO. To convert it into Discrete PSO, we
-have modified it and used concept of “Swap Operator”.
-To implement and analyse our algorithm we need a problem. Here we
-have taken Travelling Salesman Problem as an exemplary problem.
-In this problem, there are some cities which are connected to each
-other. We have to form a Hamiltonian Cycle i.e we have to find a
-minimal distance path which covers all the cities at most one time
-and return to initial position.
 
-We have taken a dataset of 194 cities of Qatar. We have chosen Python
-language to write our code and implemented it on Python version
-3.6/3.7.
-xii
+This project is based of study and implementation of different computational approach for optimization problems. As we know, there are many approaches present to solve optimization problem. For simple optimization problem these approaches work perfectly, but when we apply these approaches on highly complex problems like multi-objective optimizations or NP-hard problems, we find some issues related to those approaches. These issues are time complexity, limited computational capacity, approximation of result etc. There are two main methods of solving optimization problem, which are further classified. These two methods are Exact Method and Approximate Method. When we apply exact method, it takes too much time to solve the problem which is not possible for real time problems. Approximate Method, which is the second method, gives solution in real time, but sometimes it is too much different from exact result.
+
+To overcome from above problems, we have tried to implement an algorithm which is nature inspired. This algorithm is known as Particle Swarm Optimization(PSO). PSO is originally attributed to Kennedy and Eberhart in 1995. It is inspired from bird flocks and fish schooling. Classical format of PSO is used to solve continuous optimization problem. But we have taken Travelling Salesman Problem as an exemplary problem which is a discrete optimization problem. To solve discrete optimization problem, we have to convert Classical PSO into Discrete PSO. To convert it into Discrete PSO, we have modified it and used concept of “Swap Operator”. To implement and analyse our algorithm we need a problem. Here we have taken Travelling Salesman Problem as an exemplary problem. In this problem, there are some cities which are connected to each other. We have to form a Hamiltonian Cycle i.e we have to find a minimal distance path which covers all the cities at most one time and return to initial position.
+
+We have taken a dataset of 194 cities of Qatar. We have chosen Python language to write our code and implemented it on Python version 3.6/3.7.
+
 
 LITERATURE RIVIEW
+
 Researchers from various fields such as biology, physics,
 mathematics, artificial intelligence, and many other fields are
 devoting themselves to solve the Travelling Salesman Problem (TSP)
@@ -456,8 +403,9 @@ both the result, we find that our proposed algorithm give different
 values for same alpha() and beta(),due to the random function used in
 the algorithm.
 
-Table 1. Tour Best Distance Value for Particular Simulation Run
-Run No. Tour Best Value Run No. Tour Best Value
+Table 1.  Tour Best Distance Value for Particular Simulation Run 
+
+Run No.  Tour Best Value  Run No.  Tour Best Value
 1 89075.0 11 84101.0
 2 87627.0 12 84101.0
 3 84749.0 13 84101.0
@@ -471,40 +419,18 @@ Run No. Tour Best Value Run No. Tour Best Value
 
 
 DISCUSSION AND CONCLUSION
+
 Discussion
-After completion of project we have found many interesting things,
-which are very necessary to be discussed.
-We implemented to modify previously exist algorithm, which is
-working fine. We have got that our proposed algorithm solves the
-problem in lesser time and with high accuracy.
-In our program, we use different constants and some random numbers,
-there scope is fixed throughout the program. We run our program
-many times by changing the value of alpha() and beta() and found some
-interesting results .We found that value of alpha() , beta() near to .85
-give more accurate results than the other values. In our algorithm we
-use “ rand() ” functions to generate some random number between 0
-and 1. This random number is used as probability. For different random
-numbers, program behaves differently, and give some new result.
+
+After completion of project we have found many interesting things, which are very necessary to be discussed. We implemented to modify previously exist algorithm, which is working fine. We have got that our proposed algorithm solves the problem in lesser time and with high accuracy. In our program, we use different constants and some random numbers, there scope is fixed throughout the program. We run our program many times by changing the value of alpha() and beta() and found some interesting results .We found that value of alpha() , beta() near to .85 give more accurate results than the other values. In our algorithm we use “ rand() ” functions to generate some random number between 0 and 1. This random number is used as probability. For different random numbers, program behaves differently, and give some new result.
+
 Future Work
-In our project, we have made some changes in basic PSO algorithm, that
-works very well. There are also many metaheuristic algorithms that
-are present. We can say that if we’ll research and try to modify and
-merge these algorithms, there will be higher possibility that we find
-even a more better solution for highly complex optimization problems.
-We can further try to modify PSO and get a better solution with lesser
-time complexity.
+
+In our project, we have made some changes in basic PSO algorithm, that works very well. There are also many metaheuristic algorithms that are present. We can say that if we’ll research and try to modify and merge these algorithms, there will be higher possibility that we find even a more better solution for highly complex optimization problems. We can further try to modify PSO and get a better solution with lesser time complexity.
 
 Conclusion
-We tried to analyse optimization problem with classical and heuristic
-approaches. In classical approach, result was exact but execution time
-was very high. In heuristic approaches, we had taken some assumption.
-Due to these assumptions, result was not exact, but time complexity
-was less. We also tried to understand the metaheuristic approaches and
-evolutionary algorithm. We modified a metaheuristic algorithm called
-Particle Swarm Optimization (PSO).
-We proposed discrete PSO algorithm to solve Travelling Salesman
-Problem. Our proposed algorithms solved the TSP problem and
-generated more precise result and in less computational cost and time.
+
+We tried to analyse optimization problem with classical and heuristic approaches. In classical approach, result was exact but execution time was very high. In heuristic approaches, we had taken some assumption. Due to these assumptions, result was not exact, but time complexity was less. We also tried to understand the metaheuristic approaches and evolutionary algorithm. We modified a metaheuristic algorithm called Particle Swarm Optimization (PSO). We proposed discrete PSO algorithm to solve Travelling Salesman Problem. Our proposed algorithms solved the TSP problem and generated more precise result and in less computational cost and time.
 
 REFERENCES
 
