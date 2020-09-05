@@ -425,6 +425,18 @@ the algorithm.
 
 ### Table 1.  Tour Best Distance Value for Particular Simulation Run 
 
+| Run No.  | Tour Best Value  | Run No.  |  Tour Best Value |
+|---|---|---|---|
+| 1  |   89075.0 |   |   |
+| 2  | 87627.0   |   |   |
+| 3  |  84749.0 |   |   |
+| 4  |  84749.0 |   |   |
+| 5  |  84749.0  |   |   |
+|  6 |  84749.0  |   |   |
+|  7 | 84526.0  |   |   |
+|  8 |  84526.0  |   |   |
+| 9  | 84526.0  |   |   |
+| 10  | 84101.0   |   |   |
 Run No.  Tour Best Value  Run No.  Tour Best Value
 
 1         89075.0           11           84101.0
@@ -446,6 +458,13 @@ Run No.  Tour Best Value  Run No.  Tour Best Value
 9         84526.0           19           81242.0
 
 10        84101.0           20           81242.0
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 
 ## DISCUSSION AND CONCLUSION
