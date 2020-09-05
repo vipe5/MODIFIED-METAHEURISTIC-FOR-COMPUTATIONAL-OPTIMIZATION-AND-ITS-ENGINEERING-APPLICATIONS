@@ -102,6 +102,7 @@ relying on bio-inspired operators such as mutation, crossover and
 selection.
 
 Swarm Algorithms
+
 Swarm Intelligence (SI) is the collective behaviour of decentralized,
 self-organized systems, natural or artificial. The concept is employed
 in work on artificial intelligence. SI systems consist typically of a
@@ -131,6 +132,7 @@ algorithms such as Genetic Algorithms (GA) and also offering good
 quality solution. 
 
 Classical PSO Algorithm
+
 The concept of PSO roots from the social behaviour of organism such as
 bird flocking and fish schooling. Through cooperation between
 individuals, the group often can achieve their goal more efficiently in
@@ -161,6 +163,7 @@ coefficient (neighbour confidence factor), rand() is random value in
 interval [0,1].
 
 Travelling Salesman Problem
+
 The travelling salesman problem asks the following question: "Given a
 list of cities and the distances between each pair of cities, what is the
 shortest possible route that visits each city and returns to the origin
@@ -180,6 +183,7 @@ other vertex exactly once.
 
 
 Symmetric & Asymmetric
+
 In the symmetric TSP, the distance between two cities is the same in
 each opposite direction, forming an undirected graph. This symmetry
 halves the number of possible solutions. In the asymmetric TSP, paths
@@ -241,10 +245,12 @@ combinations) and see which one is cheapest (using brute-force search).
 The running time for this approach lies within a polynomial factor
 of O(n!).
 Some exact algorithms are
+
 1. Brute Force Algorithm
 2. Branch and Bound Algorithm
 
 Heuristic Algorithm
+
 Various heuristics and approximation algorithms, which quickly
 yield good solutions have been devised. Modern methods can find
 solutions for extremely large problems (millions of cities) within a
@@ -256,6 +262,7 @@ Some heuristics algorithms are
 
 
 Metaheuristic Algorithm
+
 The above described metaheuristic approach is classical approach
 which is suitable for problems of continuous quantities. It can not
 applied directly to problem of discrete quantities. To solve this kind of
@@ -273,7 +280,9 @@ solution M = (6, 7, 8, 9, 10). The swap operator is MO(3, 4), then
 M’ = M+MO(3, 4)
  =(6, 7, 8, 9, 10) + (3, 4)
  =(6, 7, 9, 8, 10)
+ 
 Sequence of Swap
+
 A sequence of swap having one or more Swap Operators. MM = (MO[1],
 MO[2], ……………,MO[n]), where MO[1], MO[2],………,MO[n] are Swap
 Operators.
@@ -289,12 +298,14 @@ Swap Sequences. In the equivalent set, the sequence which having the
 least number of swap operator is called Basic Swap Sequence of set.
 
 Basic Sequence of Swap Creation
+
 Suppose there is two Solution A and B, and our task is to create Basic
 Swap Sequence MM which can act on B to get solution A, we define 
 xxii
 MM = A - B.
 Eg:
 Two solutions are:
+
 A = (1, 2, 3, 4, 5) and B = (2, 3, 1, 5, 4)
 Since A[1] = B[3] = 1, so the first swap operator is MO(1, 3),
 B[1] = B + MO(1, 3), then following result can be get:
@@ -305,6 +316,7 @@ The third operator is MO(4, 5), then B[3] = A. Finally we get
 Basic Swap Sequence MM = A – B =(MO(1, 3), MO(2, 3), MO(4, 5).
 
 Modified Velocity Update Equation
+
 The velocity update equation of classical PSO is not suitable for the TSP
 problem. It can be updated as follow:
 v[i][d] = v[i][d]  *(Pbest[i][d] – X[i][d])  *(Gbest[i][d] – X[i][d])
@@ -316,7 +328,9 @@ means all swap operator in Basic Swap Sequence (Gbest[i][d] – X[i][d])
 should be maintained with probability of .
 
 Fundamental Algorithms
+
 Branch and Bound Algorithm
+
 1) Get upper bound.
 2) Solve the problem as an assignment problem (without constraint that
 tour be connected).
@@ -345,6 +359,7 @@ unvisited vertex v.
 to step 3.
 
 Classical PSO Algorithm
+
 1. Initialize a population of particle.
 2. do
 1. for each particle p with x[p] do
@@ -361,7 +376,9 @@ neighbors
 3. while (a stop criterion is not satisfied)
 
 PROPOSED MODEL/ALGORITHM
+
 Proposed Algorithm
+
 Discrete PSO Algorithm
 Step 1:
 Each of the particles gets a random solution and a random Swap
@@ -391,8 +408,11 @@ Step 5:
 Draw the global best solution.
 
 SIMULATION RESULT
+
 Experimental Result
+
 Iteration vs Cost Graph
+
 Above graph shows cost of travelling in each iteration. In this
 graph we can see that travelling cost is decreasing with number of
 iterations. That means our algorithm is trying to find less travelling
@@ -406,15 +426,25 @@ the algorithm.
 Table 1.  Tour Best Distance Value for Particular Simulation Run 
 
 Run No.  Tour Best Value  Run No.  Tour Best Value
+
 1 89075.0 11 84101.0
+
 2 87627.0 12 84101.0
+
 3 84749.0 13 84101.0
+
 4 84749.0 14 84101.0
+
 5 84749.0 15 84101.0
+
 6 84749.0 16 84101.0
+
 7 84526.0 17 81242.0
+
 8 84526.0 18 81242.0
+
 9 84526.0 19 81242.0
+
 10 84101.0 20 81242.0
 
 
