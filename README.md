@@ -1,25 +1,25 @@
 # MODIFIED-METAHEURISTIC-FOR-COMPUTATIONAL-OPTIMIZATION-AND-ITS-ENGINEERING-APPLICATIONS
 
-ABSTRACT
+## ABSTRACT
 
 In real life, we see many problems, where we have to optimize our solution. These type of problems are called Optimization Problem. In simplest terms, optimization can be considered as a maximization or minimization problem. To solve the optimization problem, efficient search or optimization algorithms are needed. Till date, there are many algorithms and approaches are discovered to solve optimization problem. In these algorithms, some have very high time complexity or some give us approximate result. Our aim is to improve this result with lesser time complexity.With a different perspective, Optimization algorithm can be classified
 into classical and metaheuristic approaches. In this project our mainfocus is based on the metaheuristic algorithm which is one of the key algorithm for optimization. A metaheuristic can be considered as a "master strategy that guides and modifies other heuristics to produce solutions beyond those that are normally generated in a quest for local optimality". But before shifting to the modern solution we will first analyse the traditional and heuristic approach to solve the problem for an overall comparison with the metaheuristic approach for a complete and satisfactory result. To achieve our target, we will use a bench-mark problem THE TRAVELLING SALESMAN PROBLEM (TSP).
 
-PREFACE
+## PREFACE
 
-Introduction
+### Introduction
 
 Solving optimization problems becomes has become a central theme not only on operational research but also on several research areas like robotic, medicine, economic etc. The number of support decision problems that can be formalized as an optimization problem is growing rapidly. This study represents a literature revue of Metaheuristics optimization. Metaheuristics are applied to all kinds of combinatorial problems, and they can also be adapted to discrete problems. These approaches which include the genetic algorithms, the Ant Colony Algorithms, Particle Swarm Optimization (PSO) etc. are for both monoobjective problems and multi-objective problems. Before focusing on the multi-objective optimization, it is necessary to explain the context of the mono-objective optimization. A special attention is given to the method of Particle Swarm Optimization (PSO). To apply new algorithms and approaches we have to select a problem. In this project, we have taken the Travelling Salesman Problem (TSP). TSP is a benchmark NP-hard problem, which is suitable for apply metaheuristic approaches.
 
-Keywords
+### Keywords
 
 Optimization problem, Objective function, Mono-Objective Function, Multi-Objective Function, Metaheuristics, Travelling Salesman Problem(TSP), Swarm Algorithm, Particle Swarm Optimization.
 
-Motivation of The Project
+### Motivation of The Project
 
 We face many problems in day to day life where optimization is required like travelling some places, logistics etc. When we tried to solve these problems, we get stuck at some points. In our curriculum we have read many optimization techniques. But these techniques do not work for all problems. Some problems are so much complex that these techniques take too much time to solve. The inspiration for doing this project was primarily an interest in undertaking a challenging project in an interesting area of research. The opportunity to learn about a new area of computing not covered in lectures was appealing. It leads to us to explore a new and unique field of the computer science and which motivates us for learning a new aspect of solving optimization problem using different approach and algorithm. 
 
-Basic Description of The Project
+### Basic Description of The Project
 
 This project is based of study and implementation of different computational approach for optimization problems. As we know, there are many approaches present to solve optimization problem. For simple optimization problem these approaches work perfectly, but when we apply these approaches on highly complex problems like multi-objective optimizations or NP-hard problems, we find some issues related to those approaches. These issues are time complexity, limited computational capacity, approximation of result etc. There are two main methods of solving optimization problem, which are further classified. These two methods are Exact Method and Approximate Method. When we apply exact method, it takes too much time to solve the problem which is not possible for real time problems. Approximate Method, which is the second method, gives solution in real time, but sometimes it is too much different from exact result.
 
@@ -28,7 +28,7 @@ To overcome from above problems, we have tried to implement an algorithm which i
 We have taken a dataset of 194 cities of Qatar. We have chosen Python language to write our code and implemented it on Python version 3.6/3.7.
 
 
-LITERATURE RIVIEW
+## LITERATURE RIVIEW
 
 Researchers from various fields such as biology, physics,
 mathematics, artificial intelligence, and many other fields are
@@ -101,7 +101,7 @@ high-quality solutions to optimization and search problems by
 relying on bio-inspired operators such as mutation, crossover and
 selection.
 
-Swarm Algorithms
+### Swarm Algorithms
 
 Swarm Intelligence (SI) is the collective behaviour of decentralized,
 self-organized systems, natural or artificial. The concept is employed
@@ -131,7 +131,7 @@ PSO converges quickly relative to other population-based optimization
 algorithms such as Genetic Algorithms (GA) and also offering good
 quality solution. 
 
-Classical PSO Algorithm
+### Classical PSO Algorithm
 
 The concept of PSO roots from the social behaviour of organism such as
 bird flocking and fish schooling. Through cooperation between
@@ -162,7 +162,7 @@ Where w is an inertia coefficient which is chosen constant in interval
 coefficient (neighbour confidence factor), rand() is random value in
 interval [0,1].
 
-Travelling Salesman Problem
+### Travelling Salesman Problem
 
 The travelling salesman problem asks the following question: "Given a
 list of cities and the distances between each pair of cities, what is the
@@ -182,7 +182,7 @@ other vertex exactly once.
 
 
 
-Symmetric & Asymmetric
+### Symmetric & Asymmetric
 
 In the symmetric TSP, the distance between two cities is the same in
 each opposite direction, forming an undirected graph. This symmetry
@@ -226,7 +226,7 @@ since u[i] can be no greater than n and u[j] can be no less than 1;
 hence the constraints are satisfied whenever u[i]=0. For u[j]=1, we
 have:
 
-satisfy the constraint.
+### satisfy the constraint.
 
 Dantzig-Fulkerson-Johnson Formulation
 Label the cities with the numbers 1, …, n and define:
@@ -249,7 +249,7 @@ Some exact algorithms are
 1. Brute Force Algorithm
 2. Branch and Bound Algorithm
 
-Heuristic Algorithm
+### Heuristic Algorithm
 
 Various heuristics and approximation algorithms, which quickly
 yield good solutions have been devised. Modern methods can find
@@ -261,7 +261,7 @@ Some heuristics algorithms are
 2. Christofides Algorithm
 
 
-Metaheuristic Algorithm
+### Metaheuristic Algorithm
 
 The above described metaheuristic approach is classical approach
 which is suitable for problems of continuous quantities. It can not
@@ -281,7 +281,7 @@ M’ = M+MO(3, 4)
  =(6, 7, 8, 9, 10) + (3, 4)
  =(6, 7, 9, 8, 10)
  
-Sequence of Swap
+### Sequence of Swap
 
 A sequence of swap having one or more Swap Operators. MM = (MO[1],
 MO[2], ……………,MO[n]), where MO[1], MO[2],………,MO[n] are Swap
@@ -297,7 +297,7 @@ new solution. All these Swap Sequences are called the equivalent set of
 Swap Sequences. In the equivalent set, the sequence which having the
 least number of swap operator is called Basic Swap Sequence of set.
 
-Basic Sequence of Swap Creation
+### Basic Sequence of Swap Creation
 
 Suppose there is two Solution A and B, and our task is to create Basic
 Swap Sequence MM which can act on B to get solution A, we define 
@@ -315,7 +315,7 @@ B[2] = B[1] + MO(2, 3) and B[2] = (1, 2, 3, 5, 4)
 The third operator is MO(4, 5), then B[3] = A. Finally we get
 Basic Swap Sequence MM = A – B =(MO(1, 3), MO(2, 3), MO(4, 5).
 
-Modified Velocity Update Equation
+### Modified Velocity Update Equation
 
 The velocity update equation of classical PSO is not suitable for the TSP
 problem. It can be updated as follow:
@@ -327,9 +327,9 @@ X[i][d])
 means all swap operator in Basic Swap Sequence (Gbest[i][d] – X[i][d])
 should be maintained with probability of .
 
-Fundamental Algorithms
+## Fundamental Algorithms
 
-Branch and Bound Algorithm
+### Branch and Bound Algorithm
 
 1) Get upper bound.
 2) Solve the problem as an assignment problem (without constraint that
@@ -358,7 +358,7 @@ unvisited vertex v.
 5) If all the vertices in the domain are visited, then terminate. Else, go
 to step 3.
 
-Classical PSO Algorithm
+### Classical PSO Algorithm
 
 1. Initialize a population of particle.
 2. do
@@ -375,9 +375,9 @@ neighbors
 5. end for
 3. while (a stop criterion is not satisfied)
 
-PROPOSED MODEL/ALGORITHM
+## PROPOSED MODEL/ALGORITHM
 
-Proposed Algorithm
+### Proposed Algorithm
 
 Discrete PSO Algorithm
 Step 1:
@@ -407,11 +407,11 @@ update Pbest[i][d] . Go to step 2.
 Step 5:
 Draw the global best solution.
 
-SIMULATION RESULT
+## SIMULATION RESULT
 
-Experimental Result
+### Experimental Result
 
-Iteration vs Cost Graph
+### Iteration vs Cost Graph
 
 Above graph shows cost of travelling in each iteration. In this
 graph we can see that travelling cost is decreasing with number of
@@ -423,7 +423,7 @@ both the result, we find that our proposed algorithm give different
 values for same alpha() and beta(),due to the random function used in
 the algorithm.
 
-Table 1.  Tour Best Distance Value for Particular Simulation Run 
+### Table 1.  Tour Best Distance Value for Particular Simulation Run 
 
 Run No.  Tour Best Value  Run No.  Tour Best Value
 
@@ -448,21 +448,21 @@ Run No.  Tour Best Value  Run No.  Tour Best Value
 10 84101.0 20 81242.0
 
 
-DISCUSSION AND CONCLUSION
+## DISCUSSION AND CONCLUSION
 
-Discussion
+### Discussion
 
 After completion of project we have found many interesting things, which are very necessary to be discussed. We implemented to modify previously exist algorithm, which is working fine. We have got that our proposed algorithm solves the problem in lesser time and with high accuracy. In our program, we use different constants and some random numbers, there scope is fixed throughout the program. We run our program many times by changing the value of alpha() and beta() and found some interesting results .We found that value of alpha() , beta() near to .85 give more accurate results than the other values. In our algorithm we use “ rand() ” functions to generate some random number between 0 and 1. This random number is used as probability. For different random numbers, program behaves differently, and give some new result.
 
-Future Work
+### Future Work
 
 In our project, we have made some changes in basic PSO algorithm, that works very well. There are also many metaheuristic algorithms that are present. We can say that if we’ll research and try to modify and merge these algorithms, there will be higher possibility that we find even a more better solution for highly complex optimization problems. We can further try to modify PSO and get a better solution with lesser time complexity.
 
-Conclusion
+## Conclusion
 
 We tried to analyse optimization problem with classical and heuristic approaches. In classical approach, result was exact but execution time was very high. In heuristic approaches, we had taken some assumption. Due to these assumptions, result was not exact, but time complexity was less. We also tried to understand the metaheuristic approaches and evolutionary algorithm. We modified a metaheuristic algorithm called Particle Swarm Optimization (PSO). We proposed discrete PSO algorithm to solve Travelling Salesman Problem. Our proposed algorithms solved the TSP problem and generated more precise result and in less computational cost and time.
 
-REFERENCES
+### REFERENCES
 
 www.google.com
 
