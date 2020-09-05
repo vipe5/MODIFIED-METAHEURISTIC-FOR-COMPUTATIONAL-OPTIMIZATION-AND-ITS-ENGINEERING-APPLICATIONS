@@ -1,62 +1,10 @@
 # MODIFIED-METAHEURISTIC-FOR-COMPUTATIONAL-OPTIMIZATION-AND-ITS-ENGINEERING-APPLICATIONS
 
 ABSTRACT
-In real life, we see many problems, where we have to optimize our
-solution. These type of problems are called Optimization Problem. In
-simplest terms, optimization can be considered as a maximization or
-minimization problem. To solve the optimization problem, efficient
-search or optimization algorithms are needed.
-Till date, there are many algorithms and approaches are discovered to
-solve optimization problem. In these algorithms, some have very high
-time complexity or some give us approximate result. Our aim is to
-improve this result with lesser time complexity.
-With a different perspective, Optimization algorithm can be classified
-into classical and metaheuristic approaches. In this project our main
-focus is based on the metaheuristic algorithm which is one of the key
-algorithm for optimization.
-A metaheuristic can be considered as a "master strategy that guides
-and modifies other heuristics to produce solutions beyond those that are
-normally generated in a quest for local optimality". But before shifting
-to the modern solution we will first analyse the traditional and
-heuristic approach to solve the problem for an overall comparison with
-the metaheuristic approach for a complete and satisfactory result.
-To achieve our target, we will use a bench-mark problem THE
-TRAVELLING SALESMAN PROBLEM (TSP).
 
-Contents
-Certificate of Recommendation……………………………………………………………… ii
-Certificate of Approval………………………………………………………………............. iii
-Acknowledgement…………………………………………………………............................ iv
-Abstract…………………………………………………………………………...…………... v
-Contents………………………………………………………………………………………. v
-List of Figures………………………………………………………………………………… vii
-List of Tables…………………………………………………………………………………. viii
-1. Preface………………………………………………………………………………...
-1.1 Introduction……………………………………………………...…………… 8
-1.2 Motivation of the project………………………………….………………….. 9
-1.3 Basic description of the project………………………….…………………… 10
-2. Literature Review……………………………………………………………………
-2.1 General……………………………………………………...………………. 12
-2.2 Review of related works………………………….…………......….…...…… 13
-3. Related Theories and Algorithms…………..………………………………………
-3.1 Fundamental theories underlying the work.…………………………………. 15
-3.2 Fundamental algorithms………………………………….………………….. 24
-4. Proposed model/algorithm…………………………………….……………………..
-4.1 Proposed model………………………………………………………………. 26
-4.2 Proposed algorithms……………………….…………………………………. 26
-5. Simulation Results…………………………………………...…………………….…
-5.1 Experimental set up ……………………………………………..…………… 27
-5.2 Experimental results………...……………...………………………………… 27
-6. Discussion and Conclusion ……...…………………………………………….…….
-6.1 Discussion…………………………………..………………………….…….. 30
-6.2 Future work…………………………………..….……………………...…….. 32
-6.3 Conclusion…………………………………………………………………….. 34
-References…………………………………………………………………………….
-List of Figures
-Fig. 1 Example of TSP 18
-Fig. 2 Graph between distance value and iteration 27
-List of Tables
-Table 1 Tour best distance value for particular simulation run 28
+In real life, we see many problems, where we have to optimize our solution. These type of problems are called Optimization Problem. In simplest terms, optimization can be considered as a maximization or minimization problem. To solve the optimization problem, efficient search or optimization algorithms are needed. Till date, there are many algorithms and approaches are discovered to solve optimization problem. In these algorithms, some have very high time complexity or some give us approximate result. Our aim is to improve this result with lesser time complexity.With a different perspective, Optimization algorithm can be classified
+into classical and metaheuristic approaches. In this project our mainfocus is based on the metaheuristic algorithm which is one of the key algorithm for optimization. A metaheuristic can be considered as a "master strategy that guides and modifies other heuristics to produce solutions beyond those that are normally generated in a quest for local optimality". But before shifting to the modern solution we will first analyse the traditional and heuristic approach to solve the problem for an overall comparison with the metaheuristic approach for a complete and satisfactory result. To achieve our target, we will use a bench-mark problem THE TRAVELLING SALESMAN PROBLEM (TSP).
+
 
 PREFACE
 Introduction
@@ -559,11 +507,18 @@ Problem. Our proposed algorithms solved the TSP problem and
 generated more precise result and in less computational cost and time.
 
 REFERENCES
+
 www.google.com
+
 www.wikepedia.com
+
 www.github.com
+
 www.intechopen.com
+
 www.linkspringer.com
+
 www.geeksforgeeks.com
+
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.258.7026&rep
 =rep1&type=pdf
